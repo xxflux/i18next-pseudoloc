@@ -26,3 +26,18 @@ i18n
     postProcess: ["pseudoloc"],
 ...
 ```
+
+
+## How to ready Pseudo Loc string
+```
+<긇<[Ŷṓṵ āŗė ėňḡĩňėėŗ, ŧĥėň ĉĥėĉķṓṵŧ ŧĥė ŗėṗṓ ṓϝ ŧĥĩş āṗṗḽĩĉāŧĩṓň。]>ヲ>
+```
+* There are Latin character sentence opening and closing markers - `<[` and `]>`
+
+* There are Korean/Japanese/Thai opening and closing markers with random characters - `<긇` and `ヲ>`
+
+* If the sentence has the `.`(period - fullstop), then it will be replaced with Japanese period - `。`
+
+* If the sentence has the `?`, then it will be replaced with Spanish inverted mark of interrogation - `¿`
+
+* If the sentence has the `“`,(opening quotation), then it will be replaced with the German opening quotation - `„` 
