@@ -1,0 +1,33 @@
+{
+  "name": "i18next-pseudoloc",
+  "version": "1.0.0",
+  "description": "Pseudo loc test plugin for i18next",
+  "main": "src/index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "i18next",
+    "react",
+    "react-18next",
+    "pseudo",
+    "pseudo localization",
+    "i18next-pseudoloc",
+    "internationalization",
+    "localization",
+    "globalization"
+  ],
+  "author": {
+    "name": "xxflux",
+    "email": "chrisyoum@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "i18next": "^22.4.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xxflux/i18next-pseudoloc.git"
+  }
+}
