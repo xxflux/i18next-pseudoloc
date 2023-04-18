@@ -1,10 +1,19 @@
 {
   "name": "i18next-pseudoloc",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Pseudo loc test plugin for i18next",
-  "main": "src/index.js",
+  "main": "lib/index.js",
+  "module": "es/index.js",
   "types": "./index.d.ts",
+  "files": [
+    "es",
+    "lib",
+    "umd",
+    "index.d.ts"
+  ],
   "scripts": {
+    "build": "nwb build-web-module",
+    "clean": "nwb clean-module",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -29,5 +38,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/xxflux/i18next-pseudoloc.git"
+  },
+  "devDependencies": {
+    "nwb": "^0.25.2"
   }
 }
