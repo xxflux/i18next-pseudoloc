@@ -26,6 +26,7 @@ i18n
     postProcess: ["pseudoloc"],
 ...
 ```
+[Code example of the i18n.js](https://github.com/xxflux/i18n-app/blob/main/src/i18n.js)
 
 
 ## How to ready Pseudo Loc string
